@@ -10,7 +10,7 @@ make
 ./gimbals
 ```
 
-##BLDC Gimbal Motors with encoders
+## BLDC Gimbal Motors with encoders
 
 simple demo, turn the motor 25 degrees
 
@@ -23,10 +23,8 @@ make
 
 ## A Guide to Using BLDC Motors (Gimbals) with SaraKIT: A Comparison of Stepper Motors, Servos, and BLDC Motors:
 
-![VideoAboutBLDC](https://youtu.be/Nwvnoo5efzE)
+[VideoAboutBLDC](https://youtu.be/Nwvnoo5efzE)
 
-
-## explanation of how the program works
 
 [https://SaraKIT.SaraAI.com](https://SaraKIT.SaraAI.com)
 
