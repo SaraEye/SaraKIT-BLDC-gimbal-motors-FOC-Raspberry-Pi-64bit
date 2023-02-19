@@ -1,10 +1,10 @@
 # SaraKIT_BLDC_DEMO
 ##BLDC Gimbal Motors without encoders
 
->git clone https://github.com/SaraEye/SaraKIT-BLDC-gimbal-motors-FOC-Raspberry-Pi-64bit GimbalsDemo
->cd GimbalsDemo/BLDC_without_Encoders
->make
->./gimbals
+#>git clone https://github.com/SaraEye/SaraKIT-BLDC-gimbal-motors-FOC-Raspberry-Pi-64bit GimbalsDemo
+#cd GimbalsDemo/BLDC_without_Encoders
+#make
+#./gimbals
 
 ##BLDC Gimbal Motors with encoders
 
