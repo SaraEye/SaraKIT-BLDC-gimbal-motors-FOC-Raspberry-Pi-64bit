@@ -24,9 +24,9 @@ make
 ./gimbals
 ```
 
-## BLDC Gimbal Motors with encoders
+## BLDC Encoder and two synchronized gimbals
 
-![image](https://user-images.githubusercontent.com/35704910/220132992-9ca8f915-35ab-49c2-9cc2-d8ba028073b3.png)
+![SaraKIT_field_oriented_control_FOC](https://user-images.githubusercontent.com/35704910/220133540-a8d33283-8703-42f1-8bd1-8213652b9dcb.gif)
 
 Using Raspberry PI with SaraKIT, AS5048A Encoder with Brushless Motor Controllers (BLDC)
 
@@ -41,7 +41,7 @@ make
 ./gimbals
 ```
 
-this is exactly the moment in the movie: https://youtu.be/Nwvnoo5efzE?t=607
+this is exactly that part of the movie: https://youtu.be/Nwvnoo5efzE?t=607
 
 ## A Guide to Using BLDC Motors (Gimbals) with SaraKIT: A Comparison of Stepper Motors, Servos, and BLDC Motors:
 
