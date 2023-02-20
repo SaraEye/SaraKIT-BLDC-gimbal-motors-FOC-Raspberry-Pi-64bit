@@ -48,6 +48,10 @@ struct GetInfoResult {
 	bool bdata3;
 };
 
+#define _PI	    3.14159265358979323846	/* pi */
+#define _2PI    6.28318530717958647693  /* 2pi */
+#define DEG_TO_RAD  (_PI / 180)
+#define RAD_TO_DEG  (180.0 / _PI)
 
 void sleepms(int ms);
 void sendCommandSet(uchar *buffer);
