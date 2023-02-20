@@ -1,4 +1,7 @@
 # SaraKIT_BLDC_DEMO
+
+This demo demonstrates the use of SaraKIT, which is based on the Raspberry Pi CM4, to control BLDC Gimbal Brushless Motors with and without encoders.
+
 ## BLDC Gimbal Motors without encoders
 
 simple demo, turn the motor 25 degrees
