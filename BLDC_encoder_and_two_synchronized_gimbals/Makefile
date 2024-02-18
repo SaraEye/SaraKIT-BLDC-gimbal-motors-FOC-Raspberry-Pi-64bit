@@ -18,7 +18,6 @@ INCLUDES = -I/opt/vc/include \
 	
 LIBS =-lpthread \
 	-lrt \
-	-lwiringPi \
 	-lcrypt
 
 SLIBS=

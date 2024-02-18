@@ -1,14 +1,9 @@
 #include <iostream>
 #include <signal.h>
-#include "unistd.h"
 #include <stdio.h>
-#include <arm_neon.h>
 
 #include "lib/SaraKIT/devices.hpp"
-#include <wiringPi.h>
 
-using namespace std;
- 
 //ctrl-c 
 void ctrlc_handler(sig_atomic_t s){
     printf("\nCaught signal %d\n",s);
@@ -27,9 +22,9 @@ int main(int argc, char** argv){
     BLDCMotor_IdleTorque(0, 0, 2500);
 
     while (1) {
-        BLDCMotor_MoveByAngle(0, 25, 0.15, 40, true);
+        BLDCMotor_MoveByAngle(0, 180, 0.50, 40, true);
         sleepms(1500);
-        BLDCMotor_MoveByAngle(0, -25, 0.15, 40, true);
+        BLDCMotor_MoveByAngle(0, -180, 0.50, 40, true);
         sleepms(1500);
     }
     return 1;
