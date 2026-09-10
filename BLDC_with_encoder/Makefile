@@ -14,7 +14,8 @@ CFLAGS = -Wl,--no-as-needed -fexceptions -fpermissive -fopenmp -pthread -O3 -mcp
 
 CC = g++
 INCLUDES = -I/opt/vc/include \
-	-I./lib
+	-I./lib \
+	-Iinclude 
 	
 LIBS =-lpthread \
 	-lrt \
